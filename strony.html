@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Arisco</title>
+    <link rel="shortcut icon" href="http://arisco.pl/szablon/images/arisco_favicon.ico" type="image/x-icon">
+	<meta name="author" content="Arisco Sp. z o.o. - Piotr Zawadzki" />
+	<meta name="description" content="Arisco" />
+	<meta name="keywords"  content="arisco" />
+	<meta name="Resource-type" content="Document" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+    <!--  bootstrap icons-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    
+    
+<!--    cdn for bootstrap columns in navbar but kinda useless-->
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>   -->
+
+    
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Source+Sans+Pro:200,300&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    
+    
+
+    <!-- Skrypt do live czatu -->
+    <script>window.$czater = {tok: "36b1d4b1409b9538a42b12b43bcbb81b601fa2d6", domain: "https://www.czater.pl/", login: undefined, email: undefined};</script>		
+    <script src="https://www.czater.pl/assets/modules/chat/js/chat.js?"></script>
+    
+    
+        <link rel="stylesheet" type="text/css" href="styles/carousel_itunes.css" />
+    
+</head>
+<body>
+
+                                <!--    cookies   class="container"  -->
+    
+
+    
+<!--
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <a href="#" class="col-2 navbar-brand" style="background-color: blue !important">Logo</a>
+  <ul class=" col-6 navbar-nav mx-auto text-center" style="background-color: blue !important">
+    <li class="nav-item"><a href="#" class="nav-link">Link 1</a></li>
+    <li class="nav-item"><a href="#" class="nav-link">Link 2</a></li>
+    <li class="nav-item"><a href="#" class="nav-link">Link 3</a></li>
+    <li class="nav-item"><a href="#" class="nav-link">Link 4</a></li>
+  </ul>
+  <form class="col-2 form-control form-inline" style="background-color: blue !important">
+    <input type="text"   placeholder="Search">
+  </form>
+</nav>
+-->
+    
+<nav id="navbar" class="navbar navbar-light navbar-expand-md justify-content-center ">    
+    <div style="width:160px"><a href="/" class="navbar-brand mr-0" > <img src="imgs/arisco-trzydziestolecie.png" style=" height:30px;"/></a></div>
+    <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+        <ul class="navbar-nav mx-auto text-center">
+            <li class="nav-item active">
+                <a class="first nav-link" href="#">Aktualności <span class="sr-only">Home</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="second nav-link" href="#">Oferta</a>
+            </li>
+            <li class="nav-item">
+                <a class="second nav-link" href="#">Szkolenia</a> 
+            </li>
+            <li class="nav-item pomocTechniczna_1">
+                <a class="second nav-link" href="#">Pomoc techniczna</a> 
+            </li>
+            <li class="nav-item praca_1">
+                <a class="second nav-link" href="#">Praca</a> 
+            </li>
+            <li class="nav-item oNas_1">
+                <a class="second nav-link" href="#">O nas</a> 
+            </li>
+            <li class="nav-item kontakt_1">
+                <a class="second nav-link" href="#">Kontakt</a> 
+            </li>
+            <li class="nav-item dropdown my_dropdown1">
+              <a class="nav-link  my_dropbtn11 my_dropbtn1" href="#" id="navbardrop" data-toggle="dropdown"> 
+                INNE
+                  <i class="fas fa-angle-down bounce"></i>
+              </a>
+              <div class="dropdown-menu my_menu">
+                <a class="dropdown-item kontakt_2" href="#">KONTAKT</a>
+                <a class="dropdown-item oNas_2" href="#">O NAS</a>
+                <a class="dropdown-item praca_2" href="#">PRACA</a>
+                <a class="dropdown-item pomocTechniczna_2" href="#">POMOC TECHNICZNA</a>
+              </div>
+            </li>
+        </ul>
+        <ul class="second  nav navbar-nav flex-row justify-content-center flex-nowrap text-center tvWidth" style="padding: 0; padding-top:3px">
+            <a>Pomoc Zdalna  <img src="imgs/teamviewer.jpg" style="width:30px; height:30px;"/></a>
+        </ul>
+    </div>
+</nav>
+      
+<!--<img id="main-img" class="img-fluid" style="margin-top:0px;" src="imgs/laptop.jpg"/>-->
+<!--
+    <div class="row" style="background-color:rgb(5,138,76)">
+    dadsasafdsad
+    </div>
+-->
+   
+    
+    
+
+   
+<div id="root2" style="margin-top:100px;"></div>
+
+    
+<div id="rowContainer" class="row ">
+    <div class="container" style="width: 900px; padding:0px;">
+        <div class="col-md-12 col-sm-12" style="padding:0px;">				
+            <div class="row mt-3" style="">
+                <div id="react_container2"></div>
+            </div>
+        </div>
+    </div>
+</div> 
+    
+    
+<div id="box" class="mb-2">
+    <select id="drugi-navbar-dropdown">
+        <option value="wszystkie">Wszystkie</option>
+        <option value="administracja">Pakiet Administracja</option>
+        <option value="ochronaSrodowiska">Pakiet Ochrona Środowiska</option>
+        <option value="obiegDokumentow">Pakiet Obieg Dokumentów</option>
+        <option value="oprogramowanieDedykowane">Oprogramowanie Dedykowane</option>
+        <option value="stronyInternetowe">Tworzenie Stron Internetowych</option>        
+    </select>
+
+    <a class="minibutton act" href="index.html" onClick="">Wszystkie</a>
+    <a class="minibutton1 act1"  href="index.html" onClick="">Pakiet Administracja</a>
+    <a class="minibutton1 act2" href="index.html" onClick="">Pakiet Ochrona Środowiska</a> 
+    <a class="minibutton1 act3" href="index.html" onClick="">Pakiet Obieg Dokumentów</a>
+    <a class="minibutton1 act4" href="index.html" onClick="">Oprogramowanie Dedykowane</a>
+    <a class="minibutton1 act5" href="index.html" onClick="">Tworzenie Stron Internetowych</a>   
+
+    <div class="dropdown">
+      <button onclick=(myFunction()) class="dropbtn my-dropbtn2">Zamów</button>
+      <div id="myDropdown" class="dropdown-content my-dropdown-item">
+        <div>Elżbieta Wiśniewska</div>
+          <div><a disablelinktracking="false" href="tel:+48426480325">426480325</a><br /></div>
+          <div>elzbieta.wisniewska@arisco.pl</div>
+          <div>gg: 40095607</div>        
+      </div>
+    </div>    
+</div>
+    
+<div id="rowContainer" class="row pt-3 mb-5">
+    <div class="container" style="max-width: 900px;">
+        <div class="col-md-12 col-sm-12" style="padding:0px;">	
+            <div class="row mt-3" style="font-size: 34px; color: rgb(5,138,76); font-weight:600;">
+                Strony WWW
+            </div>
+            <div class="row mt-3" style="font-size: 24px">
+                Od pewnego czasu w naszej ofercie mogą Państwo znaleźć również usługę tworzenia stron WWW. Jesteśmy w stanie zaproponować Państwu ścisłą współpracę z webdesignerem oraz webmasterem, którzy pomogą urzeczywistnić Państwa wizję i pomysły dotyczące strony internetowej.
+            </div>
+        </div>
+    </div>
+</div>
+    
+<div id="carousel">
+  <div class="selected">
+    <img src="imgs/lubzina.jpg">
+  </div>
+
+  <div class="next">
+    <img src="imgs/radawie.jpg">
+  </div>
+
+  <div class="nextRightSecond">
+    <img src="imgs/katy.jpg">
+  </div>
+
+  <div class="hideRight">
+    <img src="imgs/folusz.jpg">
+  </div>
+
+  <div class="hideRight">
+    <img src="imgs/funeralis.jpg">
+  </div>
+    
+    <div class="hideRight">
+    <img src="imgs/ortodonta.jpg">
+  </div>
+</div>
+
+<div class="buttons">
+  <button id="prev">Poprzednia</button>
+  <button id="next">Następna</button>
+</div>    
+    
+    
+<div id="rowContainer" class="row pt-3 mb-5">
+    <div class="container" style="max-width: 900px;">
+        <div class="col-md-12 col-sm-12" style="padding:0px;">	
+           
+            
+            <div>
+                <br>
+            O konieczności posiadania strony WWW nie trzeba już nikogo przekonywać. Dla firm to okazja do prezentacji swoich dokonań i produktów, więc de facto zwiększanie szans sprzedażowych. Natomiast dla jednostek administracji publicznej i samorządowej to wizytówka, dzięki której klienci (petenci) instytucji mogą łatwo rozeznać się w jej funkcjonowaniu, pobrać odpowiednie formularze, uzyskać dane kontaktowe osób, z którymi kontakt bezpośredni jest niezbędny.<br><br>
+
+W jednym i drugim przypadku posiadanie dobrej strony WWW jest równie istotne. Dlatego jesteśmy zdania, że zaprojektowanie i wykonanie strony internetowej warto zlecić profesjonalistom.<br><br>
+
+Każdy Klient jest przez nas traktowany indywidualnie i bierze czynny udział w procesie tworzenia witryny. Dlatego tak istotnym elementem współpracy jest oddelegowanie osoby odpowiedzialnej za analizę poszczególnych kroków całego projektu WWW oraz ścisły kontakt z naszą firmą. Dzięki temu Klient otrzymuje w maksymalnie krótkim czasie produkt spełniający jego wszystkie oczekiwania i w 2-3 tygodnie od złożonego zamówienia może przystąpić do zamieszczania na stronie internetowej treści.<br><br>
+
+Nieodłącznym elementem tworzonych przez nas witryn jest panel użytkownika (CMS), dzięki któremu sami będą Państwo zarządzać treścią na stronie (zamieszczać treść). Dzięki takiemu zastosowaniu mają Państwo pełną kontrolę nad zawartością strony oraz swobodę w jej administrowaniu. Obsługa panelu jest prosta, intuicyjna. Ponadto zawsze służymy pomocą w razie kłopotów.<br><br>
+
+W ramach tworzenia WWW oferujemy również hosting, czyli miejsce na naszym serwerze oraz tworzenie kont pocztowych. Ponadto pomagamy w rejestracji domen dla naszych Klientów, którym nie odpowiadają posiadane przez nas domeny.<br><br>
+
+Zapewniamy poprawne wyświetlanie strony dla wszystkich odwiedzających oraz ich optymalizację pod kątem wszystkich popularnych przeglądarek internetowych. Stosowanie przez nas najnowszych technologii i standardów internetowych ma na celu poprawienie funkcjonalności tworzonych przez nas stron. Staramy się również, aby były doskonale zoptymalizowane pod kątem robotów wyszukiwarek internetowych.<br><br>
+
+            </div>
+        </div>
+    </div>
+</div>
+    
+       
+        <script src="scripts/carousel_itunes.js"></script>
+        
+        
+    
+       
+    <footer class="footer" style="background-color: rgb(50,50,50); color:white;">
+        <div class="container-fluid footer-width">
+                <div class="row" style="max-width: 900px">					
+					<div class="col-4">
+						<a class="footer-link1" href="/">Strona główna</a><br>
+                        <a class="footer-link2" href="/aktualnosci">Aktualnosci</a><br>
+                        <a class="footer-link2" href="/oferta">Oferta</a><br>
+                        <a class="footer-link2" href="/szkolenia">Szkolenia</a><br>
+                        <a class="footer-link2" href="/pomoc" >Pomoc techniczna</a><br>
+                        <a class="footer-link2" href="/inne/kontakt.html" >Kontakt</a><br>
+					</div>
+                    <div class="col-4">
+						<a class="footer-link1" href="/">Zamów program</a><br>
+                        <a class="footer-link2" href="/aktualnosci">Kalendarz szkoleń</a><br>
+                        <a class="footer-link2" href="/oferta">Kalendarz prezentacji</a><br>
+                        <a class="footer-link2" href="/szkolenia">Zgłoś brak szkolenia</a><br>
+                        <a class="footer-link2" href="/pomoc">Dojazd na szkolenia</a><br>
+                        <a class="footer-link2" href="/inne/kontakt.html" ></a><br>
+                        <a class="footer-link2" href="/rss/news.rss"></a>							
+					</div>
+                    <div class="col-4">
+						
+                        <a class="footer-link2" href="/inne/kontakt.html" >O firmie</a><br>
+                        <a class="footer-link2" href="/aktualnosci">Praca</a><br>
+                        <a class="footer-link2" href="/oferta">Najważniejsi są ludzie</a><br>
+                        <a class="footer-link2" href="/szkolenia">Praktyki studenckie</a><br>
+                        <a class="footer-link2" href="/pomoc" >Polityka cookies</a><br>
+                        <a class="footer-link2" href="/rss/news.rss"></a>							
+					</div>
+                    
+				</div>
+        </div>
+                <div class="row mt-4">
+                    <div class="col-12 text-center">
+                        2019 ARISCO. Wszelkie prawa zastrzeżone.
+					</div>	
+                    <div class="col-12 mt-3 mb-3 text-center pt-4">						
+                        <a class="fb-btn" href="https://www.facebook.com/ariscopl/" title="facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+					</div>
+                </div>
+				               
+
+    </footer>
+     
+       
+    
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<!-- Załaduj Reacta. -->
+<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+<!--babel, chyba zeby jezyk JSX dzialal-->
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+<!-- Załaduj nasz komponent reactowy. -->
+<script type='text/babel' src="scripts/reactContainer.js"></script>
+
+    
+   
+    
+<script src="scripts/main.js"></script>
+    
+    
+        <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Arisco</title>
+    <link rel="shortcut icon" href="http://arisco.pl/szablon/images/arisco_favicon.ico" type="image/x-icon">
+	<meta name="author" content="Arisco Sp. z o.o. - Piotr Zawadzki" />
+	<meta name="description" content="Arisco" />
+	<meta name="keywords"  content="arisco" />
+	<meta name="Resource-type" content="Document" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+    <!--  bootstrap icons-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    
+    
+<!--    cdn for bootstrap columns in navbar but kinda useless-->
+<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>   -->
+
+    
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Source+Sans+Pro:200,300&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    
+    
+
+    <!-- Skrypt do live czatu -->
+    <script>window.$czater = {tok: "36b1d4b1409b9538a42b12b43bcbb81b601fa2d6", domain: "https://www.czater.pl/", login: undefined, email: undefined};</script>		
+    <script src="https://www.czater.pl/assets/modules/chat/js/chat.js?"></script>
+    
+    
+        <link rel="stylesheet" type="text/css" href="styles/carousel_itunes.css" />
+    
+</head>
+<body>
+
+                                <!--    cookies   class="container"  -->
+    
+
+    
+<!--
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <a href="#" class="col-2 navbar-brand" style="background-color: blue !important">Logo</a>
+  <ul class=" col-6 navbar-nav mx-auto text-center" style="background-color: blue !important">
+    <li class="nav-item"><a href="#" class="nav-link">Link 1</a></li>
+    <li class="nav-item"><a href="#" class="nav-link">Link 2</a></li>
+    <li class="nav-item"><a href="#" class="nav-link">Link 3</a></li>
+    <li class="nav-item"><a href="#" class="nav-link">Link 4</a></li>
+  </ul>
+  <form class="col-2 form-control form-inline" style="background-color: blue !important">
+    <input type="text"   placeholder="Search">
+  </form>
+</nav>
+-->
+    
+<nav id="navbar" class="navbar navbar-light navbar-expand-md justify-content-center ">    
+    <div style="width:160px"><a href="/" class="navbar-brand mr-0" > <img src="imgs/arisco-trzydziestolecie.png" style=" height:30px;"/></a></div>
+    <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+        <ul class="navbar-nav mx-auto text-center">
+            <li class="nav-item active">
+                <a class="first nav-link" href="#">Aktualności <span class="sr-only">Home</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="second nav-link" href="#">Oferta</a>
+            </li>
+            <li class="nav-item">
+                <a class="second nav-link" href="#">Szkolenia</a> 
+            </li>
+            <li class="nav-item pomocTechniczna_1">
+                <a class="second nav-link" href="#">Pomoc techniczna</a> 
+            </li>
+            <li class="nav-item praca_1">
+                <a class="second nav-link" href="#">Praca</a> 
+            </li>
+            <li class="nav-item oNas_1">
+                <a class="second nav-link" href="#">O nas</a> 
+            </li>
+            <li class="nav-item kontakt_1">
+                <a class="second nav-link" href="#">Kontakt</a> 
+            </li>
+            <li class="nav-item dropdown my_dropdown1">
+              <a class="nav-link  my_dropbtn11 my_dropbtn1" href="#" id="navbardrop" data-toggle="dropdown"> 
+                INNE
+                  <i class="fas fa-angle-down bounce"></i>
+              </a>
+              <div class="dropdown-menu my_menu">
+                <a class="dropdown-item kontakt_2" href="#">KONTAKT</a>
+                <a class="dropdown-item oNas_2" href="#">O NAS</a>
+                <a class="dropdown-item praca_2" href="#">PRACA</a>
+                <a class="dropdown-item pomocTechniczna_2" href="#">POMOC TECHNICZNA</a>
+              </div>
+            </li>
+        </ul>
+        <ul class="second  nav navbar-nav flex-row justify-content-center flex-nowrap text-center tvWidth" style="padding: 0; padding-top:3px">
+            <a>Pomoc Zdalna  <img src="imgs/teamviewer.jpg" style="width:30px; height:30px;"/></a>
+        </ul>
+    </div>
+</nav>
+      
+<!--<img id="main-img" class="img-fluid" style="margin-top:0px;" src="imgs/laptop.jpg"/>-->
+<!--
+    <div class="row" style="background-color:rgb(5,138,76)">
+    dadsasafdsad
+    </div>
+-->
+   
+    
+    
+
+   
+<div id="root2" style="margin-top:100px;"></div>
+
+    
+
+    
+    
+
+    
+<div  class="row pt-3 mb-5" style="min-height:350px">
+    <div class="col-md-2" style="height:0px">
+        <img style="width:100%" src="imgs/tlo_praca1.jpg"/>
+    </div>
+    
+    <div class="col-md-8" >	
+        <div class="row mt-3" style="font-size: 34px; color: rgb(5,138,76); font-weight:600;">
+            Praca
+        </div>
+        <div class="row mt-3" style="font-size: 24px">
+            Obecnie nie prowadzimy rekrutacji na żadne stanowisko.
+        </div>
+
+
+
+        <div>
+            <br>
+        <h1>Dla osób z inwencją: MAM POMYSŁ</h1>
+        Jeżeli posiadasz wyjątkowe umiejętności lub masz pomysł na ciekawy projekt, który moglibyśmy razem zrealizować, skontaktuj się z nami. Opowiedz nam o swoim pomyśle. Zaintryguj nas. Powiedz coś o sobie. Koniecznie wyślij swoje CV (w formacie pdf) na adres praca@arisco.pl w wiadomości zatytułowanej "Praca w ARISCO - MAM POMYSŁ".
+
+        </div>
+    </div>
+    
+    <div class="col-md-2">
+        <img style="width:100%;" src="imgs/tlo_praca2.jpg"/>
+    </div>
+    
+</div>
+    
+
+
+  
+    
+    
+
+    
+       
+       
+        
+        
+    
+       
+       
+    <footer class="footer" style="background-color: rgb(50,50,50); color:white;">
+        <div class="container-fluid footer-width">
+                <div class="row" style="max-width: 900px">					
+					<div class="col-4">
+						<a class="footer-link1" href="/">Strona główna</a><br>
+                        <a class="footer-link2" href="/aktualnosci">Aktualnosci</a><br>
+                        <a class="footer-link2" href="/oferta">Oferta</a><br>
+                        <a class="footer-link2" href="/szkolenia">Szkolenia</a><br>
+                        <a class="footer-link2" href="/pomoc" >Pomoc techniczna</a><br>
+                        <a class="footer-link2" href="/inne/kontakt.html" >Kontakt</a><br>
+					</div>
+                    <div class="col-4">
+						<a class="footer-link1" href="/">Zamów program</a><br>
+                        <a class="footer-link2" href="/aktualnosci">Kalendarz szkoleń</a><br>
+                        <a class="footer-link2" href="/oferta">Kalendarz prezentacji</a><br>
+                        <a class="footer-link2" href="/szkolenia">Zgłoś brak szkolenia</a><br>
+                        <a class="footer-link2" href="/pomoc">Dojazd na szkolenia</a><br>
+                        <a class="footer-link2" href="/inne/kontakt.html" ></a><br>
+                        <a class="footer-link2" href="/rss/news.rss"></a>							
+					</div>
+                    <div class="col-4">
+						
+                        <a class="footer-link2" href="/inne/kontakt.html" >O firmie</a><br>
+                        <a class="footer-link2" href="/aktualnosci">Praca</a><br>
+                        <a class="footer-link2" href="/oferta">Najważniejsi są ludzie</a><br>
+                        <a class="footer-link2" href="/szkolenia">Praktyki studenckie</a><br>
+                        <a class="footer-link2" href="/pomoc" >Polityka cookies</a><br>
+                        <a class="footer-link2" href="/rss/news.rss"></a>							
+					</div>
+                    
+				</div>
+        </div>
+                <div class="row mt-4">
+                    <div class="col-12 text-center">
+                        2019 ARISCO. Wszelkie prawa zastrzeżone.
+					</div>	
+                    <div class="col-12 mt-3 mb-3 text-center pt-4">						
+                        <a class="fb-btn" href="https://www.facebook.com/ariscopl/" title="facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+					</div>
+                </div>
+				               
+
+    </footer>
+     
+       
+    
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+<!-- Załaduj Reacta. -->
+<script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+<!--babel, chyba zeby jezyk JSX dzialal-->
+<script  src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+<!-- Załaduj nasz komponent reactowy. -->
+<script type='text/babel' src="scripts/reactContainer.js"></script>
+
+    
+    
+    
+<script src="scripts/main.js"></script>
+    
+    
+        <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<script src="scripts/carousel_itunes.js"></script>
+</body>
+</html>

@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Arisco</title>
+    <link rel="shortcut icon" href="http://arisco.pl/szablon/images/arisco_favicon.ico" type="image/x-icon">
+	<meta name="author" content="Arisco Sp. z o.o. - Piotr Zawadzki" />
+	<meta name="description" content="Arisco" />
+	<meta name="keywords"  content="arisco" />
+	<meta name="Resource-type" content="Document" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+    <!--  bootstrap icons-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>    
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    
+    
+
+    
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Source+Sans+Pro:200,300&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+    
+    
+
+    <!-- Skrypt do live czatu -->
+	
+    <script>window.$czater = {tok: "36b1d4b1409b9538a42b12b43bcbb81b601fa2d6", domain: "https://www.czater.pl/", login: undefined, email: undefined};</script>		
+    <script src="https://www.czater.pl/assets/modules/chat/js/chat.js?"></script>
+    
+    
+</head>
+<body>
+
+                                                                                            <!--    cookies   class="container"  -->
+    
+<!--
+    <div id="cookie-banner">
+        <div class="row">
+            <div class="col-md-11 col-11 col-tn-6">
+                Nasze strony wykorzystują pliki cookies. Dalsze korzystanie z tej witryny oznacza akceptację tego stanu rzeczy.
+                <button onclick="location.href='https://jakwylaczyccookie.pl/polityka-cookies/'" class="cookie-btn">Polityka Prywatności</button>
+                <button onclick="location.href='https://jakwylaczyccookie.pl/jak-wylaczyc-pliki-cookies/'" class="cookie-btn">Jak wyłączyć cookies?</button>
+            </div>
+            <div class="col-md-1 col-1  col-tn-6">
+                <button onclick="document.getElementById('cookie-banner').setAttribute('style','display:none')" class="cookie-btn-x">X</button>
+            </div>        
+        </div>
+    </div>
+-->
+    
+ 
+    
+<nav id="navbar" class="navbar navbar-light navbar-expand-md justify-content-center ">    
+    <div style="width:160px"><a href="/" class="navbar-brand mr-0" > <img src="imgs/arisco-trzydziestolecie.png" style=" height:30px;"/></a></div>
+    <button class="navbar-toggler ml-1" type="button" data-toggle="collapse" data-target="#collapsingNavbar2">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse justify-content-between align-items-center w-100" id="collapsingNavbar2">
+        <ul class="navbar-nav mx-auto text-center">
+            <li class="nav-item active">
+                <a class="first nav-link" href="#">Aktualności <span class="sr-only">Home</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="second nav-link" href="#">Oferta</a>
+            </li>
+            <li class="nav-item">
+                <a class="second nav-link" href="#">Szkolenia</a> 
+            </li>
+            <li class="nav-item pomocTechniczna_1">
+                <a class="second nav-link" href="#">Pomoc techniczna</a> 
+            </li>
+            <li class="nav-item praca_1">
+                <a class="second nav-link" href="#">Praca</a> 
+            </li>
+            <li class="nav-item oNas_1">
+                <a class="second nav-link" href="#">O nas</a> 
+            </li>
+            <li class="nav-item kontakt_1">
+                <a class="second nav-link" href="#">Kontakt</a> 
+            </li>
+            <li class="nav-item dropdown my_dropdown1">
+              <a class="nav-link  my_dropbtn11 my_dropbtn1" href="#" id="navbardrop" data-toggle="dropdown"> 
+                INNE
+                  <i class="fas fa-angle-down bounce"></i>
+              </a>
+              <div class="dropdown-menu my_menu">
+                <a class="dropdown-item kontakt_2" href="#">KONTAKT</a>
+                <a class="dropdown-item oNas_2" href="#">O NAS</a>
+                <a class="dropdown-item praca_2" href="#">PRACA</a>
+                <a class="dropdown-item pomocTechniczna_2" href="#">POMOC TECHNICZNA</a>
+              </div>
+            </li>
+        </ul>
+        <ul class="second  nav navbar-nav flex-row justify-content-center flex-nowrap text-center tvWidth" style="padding: 0; padding-top:3px">
+            <a>Pomoc Zdalna  <img src="imgs/teamviewer.jpg" style="width:30px; height:30px;"/></a>
+        </ul>
+    </div>
+</nav>
+   
+<div class="container-fluid" style="max-width: 1520px">
+    <div class="row mb-5">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12" >	
+                <div style="height:100px;"></div>
+               <div class="container-fluid">
+					<div class="row" >
+						<div class="col-md-12">
+							<div id="output">
+								<div class="search">
+									<i class="fas fa-search"></i>                                     
+									<form action="searchKeyword.php">
+										<input   name="keyword" type="text" placeholder="Wpisz szukaną frazę">
+										<button id="search-button" type="submit" value="Submit">Enter</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+                <div class="sekcja"  style="background-color: white; margin:0px" >
+                    <div class="tytul">G1 OMiG - Letnie warsztaty szkoleniowe Lipiec 2019</div>
+
+                    <div class="tresc" >
+                        <span class="data">02.07.2019</span><span  class="data"> - </span>
+                        Szanowni Państwo,<br>
+                        Zapraszam do udziału w warsztatach szkoleniowych obejmujących swym zakresem praktyczne wykorzystanie systemu GOMiG. Wakacyjny cykl szkoleń ma charakter zdalny - wybraliśmy tę formę aby użytkownicy systemu z każdego miejsca w Polsce
+                        <br><br>
+                        <div class="visible">
+                            <button class="mobile_button_articles">Rozwiń</button>
+                        </div>
+                        <div class="invisible">
+                        mogli z niego skorzystać.
+
+                        W ramach letnich warsztatów szkoleniowych zaplanowaliśmy dwa terminy szkoleń:
+
+                        19.07.2019 od godz. 10:00
+                        31.07.2019 od godz. 10:00
+                        Szkolenia będą trwały 2 godziny zegarowe, do ich przeprowadzenia wykorzystamy znany już Państwu program do połączeń zdalnych TeamViewer. Poniżej znajduje się krótka agenda warsztatów.
+
+                        Aby wziąć udział w szkoleniu prosimy o wypełnienie załączonego formularza zgłoszenia i odesłania go na adres mailowy: biuro@arisco.pl
+                        W przypadku pytań zapraszamy również do kontaktu pod nr tel: 42 648 03 20 bądź mailowo: sprzedaz@arisco.pl
+                            <br><br>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div><img src="/imgs/pdf.png" alt="pdf"/> Zakres_szkolenia.pdf </div>
+                                </div>  
+                                <div class="col-lg-12">
+                                    <div><img src="/imgs/pdf.png" alt="pdf"/> FORMULARZ_ZGŁOSZENIA_na_szkolenie_GOMiG.pdf </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="sekcja"  style="background-color: white; margin:0px" >
+                    <div class="tytul" >G2 OMiG - Letnie warsztaty szkoleniowe Lipiec 2019</div>
+
+
+                    <div class="tresc" >
+                        <span class="data">02.07.2019</span><span  class="data"> - </span>
+                        Szanowni Państwo,<br>
+                        Zapraszam do udziału w warsztatach szkoleniowych obejmujących swym zakresem praktyczne wykorzystanie systemu GOMiG. Wakacyjny cykl szkoleń ma charakter zdalny - wybraliśmy tę formę aby użytkownicy systemu z każdego miejsca w Polsce
+                        <br><br>
+                        <div class="visible">
+                            <button class="mobile_button_articles">Rozwiń</button>
+                        </div>
+                        <div class="invisible">
+                        mogli z niego skorzystać.
+
+                        W ramach letnich warsztatów szkoleniowych zaplanowaliśmy dwa terminy szkoleń:
+
+                        19.07.2019 od godz. 10:00
+                        31.07.2019 od godz. 10:00
+                        Szkolenia będą trwały 2 godziny zegarowe, do ich przeprowadzenia wykorzystamy znany już Państwu program do połączeń zdalnych TeamViewer. Poniżej znajduje się krótka agenda warsztatów.
+
+                        Aby wziąć udział w szkoleniu prosimy o wypełnienie załączonego formularza zgłoszenia i odesłania go na adres mailowy: biuro@arisco.pl
+                        W przypadku pytań zapraszamy również do kontaktu pod nr tel: 42 648 03 20 bądź mailowo: sprzedaz@arisco.pl
+                            <br><br>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div><img src="/imgs/pdf.png" alt="pdf"/> Zakres_szkolenia.pdf </div>
+                                </div>  
+                                <div class="col-lg-12">
+                                    <div><img src="/imgs/pdf.png" alt="pdf"/> FORMULARZ_ZGŁOSZENIA_na_szkolenie_GOMiG.pdf </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div><br> 
+                <div class="sekcja"  style="background-color: white; margin:0px" >
+                    <div class="tytul" >G3 OMiG - Letnie warsztaty szkoleniowe Lipiec 2019</div>
+
+
+                    <div class="tresc" >
+                        <span class="data">02.07.2019</span><span  class="data"> - </span>
+                        Szanowni Państwo,<br>
+                        Zapraszam do udziału w warsztatach szkoleniowych obejmujących swym zakresem praktyczne wykorzystanie systemu GOMiG. Wakacyjny cykl szkoleń ma charakter zdalny - wybraliśmy tę formę aby użytkownicy systemu z każdego miejsca w Polsce
+                        <br><br>
+                        <div class="visible">
+                            <button class="mobile_button_articles">Rozwiń</button>
+                        </div>
+                        <div class="invisible">
+                        mogli z niego skorzystać.
+
+                        W ramach letnich warsztatów szkoleniowych zaplanowaliśmy dwa terminy szkoleń:
+
+                        19.07.2019 od godz. 10:00
+                        31.07.2019 od godz. 10:00
+                        Szkolenia będą trwały 2 godziny zegarowe, do ich przeprowadzenia wykorzystamy znany już Państwu program do połączeń zdalnych TeamViewer. Poniżej znajduje się krótka agenda warsztatów.
+
+                        Aby wziąć udział w szkoleniu prosimy o wypełnienie załączonego formularza zgłoszenia i odesłania go na adres mailowy: biuro@arisco.pl
+                        W przypadku pytań zapraszamy również do kontaktu pod nr tel: 42 648 03 20 bądź mailowo: sprzedaz@arisco.pl
+                            <br><br>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div><img src="/imgs/pdf.png" alt="pdf"/> Zakres_szkolenia.pdf </div>
+                                </div>  
+                                <div class="col-lg-12">
+                                    <div><img src="/imgs/pdf.png" alt="pdf"/> FORMULARZ_ZGŁOSZENIA_na_szkolenie_GOMiG.pdf </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="sekcja"  style="background-color: white; margin:0px" >
+                    <div class="tytul" >G4 OMiG - Letnie warsztaty szkoleniowe Lipiec 2019</div>
+
+
+                    <div class="tresc" >
+                        <span class="data">02.07.2019</span><span  class="data"> - </span>
+                        Szanowni Państwo,<br>
+                        Zapraszam do udziału w warsztatach szkoleniowych obejmujących swym zakresem praktyczne wykorzystanie systemu GOMiG. Wakacyjny cykl szkoleń ma charakter zdalny - wybraliśmy tę formę aby użytkownicy systemu z każdego miejsca w Polsce
+                        <br><br>
+                        <div class="visible">
+                            <button class="mobile_button_articles">Rozwiń</button>
+                        </div>
+                        <div class="invisible">
+                        mogli z niego skorzystać.
+
+                        W ramach letnich warsztatów szkoleniowych zaplanowaliśmy dwa terminy szkoleń:
+
+                        19.07.2019 od godz. 10:00
+                        31.07.2019 od godz. 10:00
+                        Szkolenia będą trwały 2 godziny zegarowe, do ich przeprowadzenia wykorzystamy znany już Państwu program do połączeń zdalnych TeamViewer. Poniżej znajduje się krótka agenda warsztatów.
+
+                        Aby wziąć udział w szkoleniu prosimy o wypełnienie załączonego formularza zgłoszenia i odesłania go na adres mailowy: biuro@arisco.pl
+                        W przypadku pytań zapraszamy również do kontaktu pod nr tel: 42 648 03 20 bądź mailowo: sprzedaz@arisco.pl
+                            <br><br>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div><img src="/imgs/pdf.png" alt="pdf"/> Zakres_szkolenia.pdf </div>
+                                </div>  
+                                <div class="col-lg-12">
+                                    <div><img src="/imgs/pdf.png" alt="pdf"/> FORMULARZ_ZGŁOSZENIA_na_szkolenie_GOMiG.pdf </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="sekcja"  style="background-color: white; margin:0px" >
+                    <div class="tytul" >G5 OMiG - Letnie warsztaty szkoleniowe Lipiec 2019</div>
+
+
+                    <div class="tresc" >
+                        <span class="data">02.07.2019</span><span  class="data"> - </span>
+                        Szanowni Państwo,<br>
+                        Zapraszam do udziału w warsztatach szkoleniowych obejmujących swym zakresem praktyczne wykorzystanie systemu GOMiG. Wakacyjny cykl szkoleń ma charakter zdalny - wybraliśmy tę formę aby użytkownicy systemu z każdego miejsca w Polsce
+                        <br><br>
+                        <div class="visible">
+                            <button class="mobile_button_articles">Rozwiń</button>
+                        </div>
+                        <div class="invisible">
+                        mogli z niego skorzystać.
+
+                        W ramach letnich warsztatów szkoleniowych zaplanowaliśmy dwa terminy szkoleń:
+
+                        19.07.2019 od godz. 10:00
+                        31.07.2019 od godz. 10:00
+                        Szkolenia będą trwały 2 godziny zegarowe, do ich przeprowadzenia wykorzystamy znany już Państwu program do połączeń zdalnych TeamViewer. Poniżej znajduje się krótka agenda warsztatów.
+
+                        Aby wziąć udział w szkoleniu prosimy o wypełnienie załączonego formularza zgłoszenia i odesłania go na adres mailowy: biuro@arisco.pl
+                        W przypadku pytań zapraszamy również do kontaktu pod nr tel: 42 648 03 20 bądź mailowo: sprzedaz@arisco.pl
+                            <br><br>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div><img src="/imgs/pdf.png" alt="pdf"/> Zakres_szkolenia.pdf </div>
+                                </div>  
+                                <div class="col-lg-12">
+                                    <div><img src="/imgs/pdf.png" alt="pdf"/> FORMULARZ_ZGŁOSZENIA_na_szkolenie_GOMiG.pdf </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div><br> 
+                <div class="sekcja"  style="background-color: white; margin:0px" >
+                    <div class="tytul" >G6 OMiG - Letnie warsztaty szkoleniowe Lipiec 2019</div>
+
+
+                    <div class="tresc" >
+                        <span class="data">02.07.2019</span><span  class="data"> - </span>
+                        Szanowni Państwo,<br>
+                        Zapraszam do udziału w warsztatach szkoleniowych obejmujących swym zakresem praktyczne wykorzystanie systemu GOMiG. Wakacyjny cykl szkoleń ma charakter zdalny - wybraliśmy tę formę aby użytkownicy systemu z każdego miejsca w Polsce
+                        <br><br>
+                        <div class="visible">
+                            <button class="mobile_button_articles">Rozwiń</button>
+                        </div>
+                        <div class="invisible">
+                        mogli z niego skorzystać.
+
+                        W ramach letnich warsztatów szkoleniowych zaplanowaliśmy dwa terminy szkoleń:
+
+                        19.07.2019 od godz. 10:00
+                        31.07.2019 od godz. 10:00
+                        Szkolenia będą trwały 2 godziny zegarowe, do ich przeprowadzenia wykorzystamy znany już Państwu program do połączeń zdalnych TeamViewer. Poniżej znajduje się krótka agenda warsztatów.
+
+                        Aby wziąć udział w szkoleniu prosimy o wypełnienie załączonego formularza zgłoszenia i odesłania go na adres mailowy: biuro@arisco.pl
+                        W przypadku pytań zapraszamy również do kontaktu pod nr tel: 42 648 03 20 bądź mailowo: sprzedaz@arisco.pl
+                            <br><br>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div><img src="/imgs/pdf.png" alt="pdf"/> Zakres_szkolenia.pdf </div>
+                                </div>  
+                                <div class="col-lg-12">
+                                    <div><img src="/imgs/pdf.png" alt="pdf"/> FORMULARZ_ZGŁOSZENIA_na_szkolenie_GOMiG.pdf </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="sekcja"  style="background-color: white; margin:0px" >
+                    <div class="tytul" >G7 OMiG - Letnie warsztaty szkoleniowe Lipiec 2019</div>
+                    <div class="tresc" >
+                        <span class="data">02.07.2019</span><span  class="data"> - </span>
+                        Szanowni Państwo,<br>
+                        Zapraszam do udziału w warsztatach szkoleniowych obejmujących swym zakresem praktyczne wykorzystanie systemu GOMiG. Wakacyjny cykl szkoleń ma charakter zdalny - wybraliśmy tę formę aby użytkownicy systemu z każdego miejsca w Polsce
+                        <br><br>
+                        <div class="visible">
+                            <button class="mobile_button_articles">Rozwiń</button>
+                        </div>
+                        <div class="invisible">
+                        mogli z niego skorzystać.
+
+                        W ramach letnich warsztatów szkoleniowych zaplanowaliśmy dwa terminy szkoleń:
+
+                        19.07.2019 od godz. 10:00
+                        31.07.2019 od godz. 10:00
+                        Szkolenia będą trwały 2 godziny zegarowe, do ich przeprowadzenia wykorzystamy znany już Państwu program do połączeń zdalnych TeamViewer. Poniżej znajduje się krótka agenda warsztatów.
+
+                        Aby wziąć udział w szkoleniu prosimy o wypełnienie załączonego formularza zgłoszenia i odesłania go na adres mailowy: biuro@arisco.pl
+                        W przypadku pytań zapraszamy również do kontaktu pod nr tel: 42 648 03 20 bądź mailowo: sprzedaz@arisco.pl
+                            <br><br>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div><img src="/imgs/pdf.png" alt="pdf"/> Zakres_szkolenia.pdf </div>
+                                </div>  
+                                <div class="col-lg-12">
+                                    <div><img src="/imgs/pdf.png" alt="pdf"/> FORMULARZ_ZGŁOSZENIA_na_szkolenie_GOMiG.pdf </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div><br>
+                <div class="sekcja"  style="background-color: white; margin:0px" >
+                    <div class="tytul" >G8 OMiG - Letnie warsztaty szkoleniowe Lipiec 2019</div>
+
+
+                    <div class="tresc" >
+                        <span class="data">02.07.2019</span><span  class="data"> - </span>
+                        Szanowni Państwo,<br>
+                        Zapraszam do udziału w warsztatach szkoleniowych obejmujących swym zakresem praktyczne wykorzystanie systemu GOMiG. Wakacyjny cykl szkoleń ma charakter zdalny - wybraliśmy tę formę aby użytkownicy systemu z każdego miejsca w Polsce
+                        <br><br>
+                        <div class="visible">
+                            <button class="mobile_button_articles">Rozwiń</button>
+                        </div>
+                        <div class="invisible">
+                        mogli z niego skorzystać.
+
+                        W ramach letnich warsztatów szkoleniowych zaplanowaliśmy dwa terminy szkoleń:
+
+                        19.07.2019 od godz. 10:00
+                        31.07.2019 od godz. 10:00
+                        Szkolenia będą trwały 2 godziny zegarowe, do ich przeprowadzenia wykorzystamy znany już Państwu program do połączeń zdalnych TeamViewer. Poniżej znajduje się krótka agenda warsztatów.
+
+                        Aby wziąć udział w szkoleniu prosimy o wypełnienie załączonego formularza zgłoszenia i odesłania go na adres mailowy: biuro@arisco.pl
+                        W przypadku pytań zapraszamy również do kontaktu pod nr tel: 42 648 03 20 bądź mailowo: sprzedaz@arisco.pl
+                            <br><br>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div><img src="/imgs/pdf.png" alt="pdf"/> Zakres_szkolenia.pdf </div>
+                                </div>  
+                                <div class="col-lg-12">
+                                    <div><img src="/imgs/pdf.png" alt="pdf"/> FORMULARZ_ZGŁOSZENIA_na_szkolenie_GOMiG.pdf </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div><br> 
+                <div class="sekcja"  style="background-color: white; margin:0px" >
+                    <div class="tytul" >G9 OMiG - Letnie warsztaty szkoleniowe Lipiec 2019</div>
+
+
+                    <div class="tresc" >
+                        <span class="data">02.07.2019</span><span  class="data"> - </span>
+                        Szanowni Państwo,<br>
+                        Zapraszam do udziału w warsztatach szkoleniowych obejmujących swym zakresem praktyczne wykorzystanie systemu GOMiG. Wakacyjny cykl szkoleń ma charakter zdalny - wybraliśmy tę formę aby użytkownicy systemu z każdego miejsca w Polsce
+                        <br><br>
+                        <div class="visible">
+                            <button class="mobile_button_articles">Rozwiń</button>
+                        </div>
+                        <div class="invisible">
+                        mogli z niego skorzystać.
+
+                        W ramach letnich warsztatów szkoleniowych zaplanowaliśmy dwa terminy szkoleń:
+
+                        19.07.2019 od godz. 10:00
+                        31.07.2019 od godz. 10:00
+                        Szkolenia będą trwały 2 godziny zegarowe, do ich przeprowadzenia wykorzystamy znany już Państwu program do połączeń zdalnych TeamViewer. Poniżej znajduje się krótka agenda warsztatów.
+
+                        Aby wziąć udział w szkoleniu prosimy o wypełnienie załączonego formularza zgłoszenia i odesłania go na adres mailowy: biuro@arisco.pl
+                        W przypadku pytań zapraszamy również do kontaktu pod nr tel: 42 648 03 20 bądź mailowo: sprzedaz@arisco.pl
+                            <br><br>
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div><img src="/imgs/pdf.png" alt="pdf"/> Zakres_szkolenia.pdf </div>
+                                </div>  
+                                <div class="col-lg-12">
+                                    <div><img src="/imgs/pdf.png" alt="pdf"/> FORMULARZ_ZGŁOSZENIA_na_szkolenie_GOMiG.pdf </div>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 col-12">	
+                
+
+                <div id="podglad_artykulu" class="sekcja"  style="margin:0px; position: sticky; top:100px;" >
+                    <div class="tytul" >Tu się wyświetla kliknięty artykuł 2019</div>
+                    <br>
+                    
+                    <div id="tresc" class="tresc" style="overflow-y:auto; height:650px">
+                        <div class="data" >02.07.2019</div>
+                        plepleSzanowni Państwo,<br>
+                        Zapraszam do udziału w warsztatach szkoleniowych obejmujących swym zakresem praktyczne wykorzystanie systemu GOMiG. Wakacyjny cykl szkoleń ma charakter zdalny - wybraliśmy tę formę aby użytkownicy systemu z każdego miejsca w Polsce
+                        mogli z niego skorzystać.
+
+                        W ramach letnich warsztatów szkoleniowych zaplanowaliśmy dwa terminy szkoleń:
+
+                        19.07.2019 od godz. 10:00
+                        31.07.2019 od godz. 10:00
+                        Szkolenia będą trwały 2 godziny zegarowe, do ich przeprowadzenia wykorzystamy znany już Państwu program do połączeń zdalnych TeamViewer. Poniżej znajduje się krótka agenda warsztatów.
+
+                        Aby wziąć udział w szkoleniu prosimy o wypełnienie załączonego formularza zgłoszenia i odesłania go na adres mailowy: biuro@arisco.pl
+                        W przypadku pytań zapraszamy również do kontaktu pod nr tel: 42 648 03 20 bądź mailowo: sprzedaz@arisco.pl
+
+                        <br>
+
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div><img src="/imgs/pdf.png" alt="pdf"/> Zakres_szkolenia.pdf </div>
+                            </div>  
+                            <div class="col-lg-12">
+                                <div><img src="/imgs/pdf.png" alt="pdf"/> FORMULARZ_ZGŁOSZENIA_na_szkolenie_GOMiG.pdf </div>
+                            </div>  
+                        </div>
+                    </div>
+                </div>
+                
+                
+            </div>
+
+        <div class="row stronicowanie mt-3 mb-3">
+            <div class="col-md-2 col-sm-2 col-2 text-center">
+                <a href="/aktualnosci/0,0,.html" class="max_back">
+                    <i class="fas fa-angle-double-left"></i>
+                </a>
+            </div>	
+            <div class="col-md-2 col-sm-2 col-2 text-center">
+                <a href="/aktualnosci/0,0,.html" class="sback">
+                    <i class="fas fa-angle-left"></i>
+                </a>
+            </div>		
+            <div class="col-md-4 col-sm-4 col-4 text-center">
+                <div class="number">Strona 2 z 37</div>
+            </div>	
+            <div class="col-md-2 col-sm-2 col-2 text-center">
+                <a href="/aktualnosci/0,2,.html" class="sforward">
+                    <i class="fas fa-angle-right"></i>
+                </a>
+            </div>		
+            <div class="col-md-2 col-sm-2 col-2 text-center">
+                <a href="/aktualnosci/0,36,.html" class="max_forward">
+                    <i class="fas fa-angle-double-right"></i>
+                </a>
+            </div>	
+        </div>
+    </div>
+</div>
+       
+       
+        
+        
+    
+       
+       
+    <footer class="footer" style="background-color: rgb(50,50,50); color:white;">
+        <div class="container-fluid footer-width">
+                <div class="row" style="max-width: 900px">					
+					<div class="col-4">
+						<a class="footer-link1" href="/">Strona główna</a><br>
+                        <a class="footer-link2" href="/aktualnosci">Aktualnosci</a><br>
+                        <a class="footer-link2" href="/oferta">Oferta</a><br>
+                        <a class="footer-link2" href="/szkolenia">Szkolenia</a><br>
+                        <a class="footer-link2" href="/pomoc" >Pomoc techniczna</a><br>
+                        <a class="footer-link2" href="/inne/kontakt.html" >Kontakt</a><br>
+					</div>
+                    <div class="col-4">
+						<a class="footer-link1" href="/">Zamów program</a><br>
+                        <a class="footer-link2" href="/aktualnosci">Kalendarz szkoleń</a><br>
+                        <a class="footer-link2" href="/oferta">Kalendarz prezentacji</a><br>
+                        <a class="footer-link2" href="/szkolenia">Zgłoś brak szkolenia</a><br>
+                        <a class="footer-link2" href="/pomoc">Dojazd na szkolenia</a><br>
+                        <a class="footer-link2" href="/inne/kontakt.html" ></a><br>
+                        <a class="footer-link2" href="/rss/news.rss"></a>							
+					</div>
+                    <div class="col-4">
+						
+                        <a class="footer-link2" href="/inne/kontakt.html" >O firmie</a><br>
+                        <a class="footer-link2" href="/aktualnosci">Praca</a><br>
+                        <a class="footer-link2" href="/oferta">Najważniejsi są ludzie</a><br>
+                        <a class="footer-link2" href="/szkolenia">Praktyki studenckie</a><br>
+                        <a class="footer-link2" href="/pomoc" >Polityka cookies</a><br>
+                        <a class="footer-link2" href="/rss/news.rss"></a>							
+					</div>
+                    
+				</div>
+        </div>
+                <div class="row mt-4">
+                    <div class="col-12 text-center">
+                        2019 ARISCO. Wszelkie prawa zastrzeżone.
+					</div>	
+                    <div class="col-12 mt-3 mb-3 text-center pt-4">						
+                        <a class="fb-btn" href="https://www.facebook.com/ariscopl/" title="facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+					</div>
+                </div>
+				               
+
+    </footer>
+     
+       
+    
+    <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>

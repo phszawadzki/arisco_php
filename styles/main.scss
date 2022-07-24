@@ -1,0 +1,204 @@
+   
+.col-md-3 {    
+    padding: 0;
+}
+*{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav a{
+    font-size: 18px;
+}
+
+.navbar-arisco {
+    background-color: rgba(255,255,255, 0.93);
+} 
+
+.navbar-arisco a {
+    color:rgb(5,138,76) !important;   
+} 
+
+.sidebar-naglowek { 
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.sidebar-button {
+    padding-left: 0px;
+    color:darkslategray;
+    padding-top: 10px;
+    
+    
+}
+
+#sidenav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 215px;
+}
+
+
+.aktywny {
+    background-color:  rgb(240,240,240);    
+}
+
+.side-pad-dot {
+    display: flex;
+    align-items: center
+}
+
+.side-pad {
+    padding-left: 60px;
+}
+
+.img-dot {
+    margin-left: 30px;
+}
+.side-but-text{
+    padding-left: 20px;
+}
+
+.ad {
+    background-color: red;
+    width: 10px;
+    height:10px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+                    /*AKTUALNOSC*/
+
+.sekcja {
+    
+    width: 600px;
+/*
+    margin-left:auto;
+    margin-right:auto;
+*/
+    border-style: solid;
+    border-width: 1px;
+    border-radius:5px;
+    border-color: rgb(220,220,220);
+}
+
+.tytul {
+    padding:16px;
+    padding-bottom: 0px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(5,138,76);
+}
+.data {
+    padding-left: 16px;
+}
+
+.tresc {
+    padding:16px;
+    padding-top:0px;
+}
+
+// searchbar
+::placeholder {
+    color: white;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: white;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: white;
+  }
+  button:focus {outline:0;}
+
+#search-button {
+    float: right;    
+    padding: 5px 25px;
+    border-radius: 16px;
+    margin-left: 36px;
+    background: rgb(25, 216, 127);
+      font-size: 1.25rem;
+    border: none;
+    color:white;
+}
+
+#search-button:hover {
+    
+    
+    
+}
+
+  
+  body {
+    // background: linear-gradient(to bottom right, #fd9, #0f9);
+    background: linear-gradient(to bottom right, #fd9, #0f9);
+	min-height: 100vh;
+	
+	font-family: 'Cabin', sans-serif;
+}
+
+#output {
+	margin: 2rem auto;
+	padding: 0px;
+	min-width: 400px;
+    width: 33%;
+    height: 48px;
+	
+	background: rgba(5,138,76, 1);
+	
+	border-radius: 999px;
+	
+	.search {
+		display: flex;
+		align-items: center;
+		
+		padding: .25rem 1rem;
+		margin-bottom: 15px;
+		
+		background: rgba(#fff, .2);
+		
+		border: none;
+		border-radius: 999px;
+		
+		transition: .9s all;
+		
+        color: #fff;
+        
+        height: 48px;
+		
+		&.active {
+			background: rgba(#fff, 1);
+			outline: none;
+			color: #444;
+        }
+        
+		input[type=text] {
+			flex-grow: 1;
+			padding-left: .5rem;
+			
+			color: inherit;
+			
+			font-size: 1.25rem;
+				
+			background: transparent;
+			border: none;
+			
+			&:focus, &:active {
+				outline: none;
+			}
+		}
+	}
+	
+	
+}
+
+// stronicowanie
+
+.max_back {
+    margin-left: auto;
+    margin-right: auto;
+}
